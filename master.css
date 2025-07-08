@@ -1,0 +1,117 @@
+body {
+    background-image: url('nepal-1309205_1280.jpg');
+    background-size: cover;
+    background-color: #d7d7d7;
+    color: black;
+}
+ h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(65, 73, 91);
+    text-shadow: 2px 5px 4px rgba(11, 10, 10, 0.5);
+    font-weight: bold;
+    font-size: 3.9em;
+    margin-top: 20px;
+ }
+ #navbar {
+    background-image: url('earth-11009_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px;
+    border: 1px solid rgb(43, 45, 46);
+    padding:70px;
+    text-align: center;
+ }
+ #gif{display: flex;
+   justify-self: center;
+    width: 150px;
+  height: auto;
+  max-height: 150px; /* adjust this if needed */
+  display: block;
+  margin: 20 auto;
+}
+ 
+ #loader {
+  text-align: center;
+  color: rgb(40, 39, 39);
+  text-shadow: 2px 3px 4px rgb(234, 230, 230);
+  font-weight: bold;
+  font-size: large;
+  padding: 3px;
+}
+
+#hoverMessage{
+   color:rgba(66, 66, 65, 0.826);
+   font-family:'Courier New', Courier, monospace;
+   border: 1px solid rgba(151, 148, 148, 0.441);
+   background-color: rgba(254, 251, 251, 0.24);
+   display: flex;
+   justify-self: center;
+   padding:5px;
+   font-weight: bold;
+
+   border-radius: 10px;
+   text-shadow: 0 2px 3px 4px black;
+
+}
+#weather-icon {
+  width: 40%;
+  height: auto;
+  max-height: 40px; /* adjust this if needed */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+.weather-icon {
+  width: 60%;
+  height: auto;
+  max-height: 60px; /* adjust this if needed */
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+ #ewf{
+    text-align: center;
+    text-shadow: 2px 5px 10px rgb(7, 91, 159);
+    color: rgb(6, 6, 6);
+ }
+ #ewf1{
+    text-align: center;
+    font-size: small;
+    color: rgb(67, 66, 66);
+    margin-top: 20px;
+ }
+ 
+#slt{
+   text-align: center;
+}
+ #citySelect{
+    display: flex;
+    flex-direction: column;
+    border-radius:30px;
+    background-color: rgba(254, 251, 251, 0.24);
+    justify-self: center;
+    align-content: center;
+    margin: 20px;
+    padding: 10px;
+ }
+ #btn {
+    background-color: rgba(90, 82, 82, 0.441);
+    border-radius: 5px;
+    border:none;
+    color: rgb(246, 243, 243);
+    box-shadow: 0 3px 10px #4d4a4a;
+ }
+ footer{
+   position:fixed;
+   bottom:0;
+   left:0;
+   width:100%;
+    text-align: center;
+    font-size: small;
+    color: rgb(241, 234, 234);
+   
+    
+ }
